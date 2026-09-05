@@ -15,3 +15,6 @@ Main App/data.db
 
 # Logs
 *.log
+
+Main App/tutorial-info/
+prep-docs/
