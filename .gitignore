@@ -4,6 +4,12 @@ __pycache__/
 
 # Virtual environment
 venv/
+.venv/
+.setup-tools/
+.python-runtime/
+.uv-cache/
+.env
+.streamlit/secrets.toml
 .env/
 
 # OS files

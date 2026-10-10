@@ -41,6 +41,10 @@ When the camera cannot find a sufficiently visible pose, the video displays `NO 
 
 ## Local Setup
 
+After creating the environment at `Main App/.venv` using the steps below,
+double-click `start.bat` in the repository root to launch the app. The launcher
+uses the correct working directory and does not require activating the environment.
+
 From PowerShell, run Streamlit with `Main App` as the working directory. The application resolves `static/style.css`, `static/AdobeClean.otf`, and `ml_models/pose_landmarker_full.task` relative to the current working directory.
 
 ```powershell
